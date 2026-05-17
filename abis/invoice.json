@@ -1,0 +1,13 @@
+{
+  "contract": "invoice",
+  "version": "1.0.0",
+  "functions": [
+    "initialize",
+    "create_invoice",
+    "mark_paid",
+    "get_invoice",
+    "pause",
+    "unpause"
+  ],
+  "events": ["invoice_created", "invoice_paid", "contract_paused", "contract_unpaused"]
+}

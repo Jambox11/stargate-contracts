@@ -1,0 +1,15 @@
+{
+  "contract": "treasury",
+  "version": "1.0.0",
+  "functions": [
+    "initialize",
+    "set_signer",
+    "propose_settlement",
+    "approve_settlement",
+    "execute_settlement",
+    "get_pending_settlements",
+    "pause",
+    "unpause"
+  ],
+  "threshold": "2-of-3"
+}
